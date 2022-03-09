@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--intestazione del titolo visualizzato sulla finestra browser-->
-
+<html>
 
     <head>
         <title>html london trip</title>
@@ -19,9 +19,9 @@
 
 
             <section>
-                <img src="/Users/simonecompagnone/Desktop/i-miei-programmi/html-london-trip/html-london-trip/img/londra-1.jpg" alt="parte 1">
-                <img src="/Users/simonecompagnone/Desktop/i-miei-programmi/html-london-trip/html-london-trip/img/londra-2.jpg" alt="parte 2">
-                <img src="/Users/simonecompagnone/Desktop/i-miei-programmi/html-london-trip/html-london-trip/img/londra-3.jpg" alt="parte 3">
+                <img src="img/londra-1.jpg" alt="parte 1">
+                <img src="img/londra-2.jpg" alt="parte 2">
+                <img src="img/londra-3.jpg" alt="parte 3">
                 <br>
                 <hr>
             </section>
@@ -33,11 +33,40 @@
                 <h2>Le mie spese</h2>
             
                 <table >
-                    <tr>    <td><strong>    Numero  </strong></td>    <td align="center"><strong>  Descrizione </strong></td> <td><strong> Costo   </strong></td> </tr>
-                    <tr>    <td>1</td>  <td>Biglietto Aereo</td>    <td>120&euro;</td>  </tr>
-                    <tr>    <td>1</td>  <td>Biglietto Aereo</td>    <td>120&euro;</td></tr>
-                    <tr>    <td>1</td>  <td>Biglietto Aereo</td>    <td>120&euro;</td></tr>
-                    <tr>    <td>Totale</td> <td></td>               <td>360&euro;</td></tr>
+                    
+                    <thead>
+                    <tr>    
+                        <th>Numero          </th>
+                        <th> Descrizione    </th>
+                        <th> Costo          </th> 
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>    
+                        <td>1</td>  
+                        <td>Biglietto Aereo</td>   
+                         <td>120&euro;</td>  </tr>
+                    <tr>    <td>1</td>  
+                            <td>Biglietto Aereo</td>   
+                            <td>120&euro;</td></tr>
+                
+               
+                    <tr>    
+                        <td>1</td>  
+                        <td>Biglietto Aereo</td>    
+                        <td>120&euro;</td>
+                    </tr>
+
+                </tbody>
+
+                 <tfoot>
+                    <tr>    
+                            <td>Totale</td> 
+                            <td></td>              
+                            <td>360&euro;</td>
+                    </tr>
+                </tfoot>
                 </table>
             </section>
             <hr>
@@ -48,10 +77,10 @@
               <section>
                     <h3>Cose da fare</h3>
                     <ul>
-                        <li>Visitare la Tower of London <strong>&chi;</strong></li>
-                        <li>Visitare greenwich <strong>&radic;</strong></li>
-                        <li>Ascoltare un artista di strada a Covent Garden <strong>&radic;</strong></li>
-                        <li>Mangiare il tipico Fish and Chips inglese <strong>&chi;</strong></li>
+                        <li>Visitare la Tower of London <strong>&cross;;</strong></li>
+                        <li>Visitare greenwich <strong>&check;;</strong></li>
+                        <li>Ascoltare un artista di strada a Covent Garden <strong>&check;;</strong></li>
+                        <li>Mangiare il tipico Fish and Chips inglese <strong>&cross;;</strong></li>
                      </ul>
              </section>
                 <hr>
@@ -71,7 +100,7 @@
                         
                         
 
-                        <li>Numeri utili di emergenza</li>          <!--punto 1 lista numerata-->
+                        <li>Numeri utili di emergenza         <!--punto 1 lista numerata-->
 
                                             <!-- inizio sottolista non numerata-->
                                 <ul>                                       
@@ -79,26 +108,27 @@
                                     <li><strong>101</strong> - Numero polizia</li>
                                     <li><strong>111</strong> - Numero assistenza medica</li>
                                 </ul>
+                            </li> 
                                              <!-- fine sottolista non numerata-->
 
-                        <li>Hotel</li> <!--punto 2 lista numerata-->
+                        <li>Hotel<!--punto 2 lista numerata-->
 
                                             <!--inizio sottolista non numerata-->
                                 <ul>                                   
                                     <li><strong>Nome hotel:</strong> Buckingham Palace</li>
                                     <li><strong>Indirizzo hotel:</strong> Westminster, London SW1A 1AA, Regno Unito</li>
-                                </ul>
+                                </ul></li> 
                                             <!-- fine sottolista non numerata-->
 
 
-                        <li>Aereo</li> <!--punto 3 lista numerata-->
+                        <li>Aereo <!--punto 3 lista numerata-->
 
 
                                              <!--inizio sottolista non numerata-->
                                 <ul>
                                     <li><strong>Volo di Andata:</strong> YI234X, ore 9.30 da Milano Malpensa </li>
                                     <li><strong>Volo di Ritorno:</strong> YI236X. ore 18.30 da London Heathrow</li>
-                                </ul>
+                                </ul></li>
                                              <!-- fine sottolista non numerata-->
 
 
